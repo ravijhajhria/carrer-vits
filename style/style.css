@@ -2,15 +2,20 @@
 @font-face {
   font-family: "Times-New-Roman-bold";
   src: url("/times-new-roman/times\ new\ roman\ bold.ttf");
+  font-weight: 700;
 }
 body {
   font-family: "Oswald", sans-serif;
 }
 .Roman-font-family {
   font-family: "Times-New-Roman-bold";
+  font-weight: 700;
 }
 .bg-dark-blue {
   background-color: #373f6e;
+}
+.border-color {
+  border-color: #373f6e !important;
 }
 .logo-w-h {
   max-width: 223.2px;
