@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+  .nav-links {
+    margin: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .ribbon-div {
+    width: 80px;
+  }
+  .ribbons {
+    font-size: 8px;
+    line-height: 12px;
+  }
+}

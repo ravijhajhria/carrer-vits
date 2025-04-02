@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@font-face {
+  font-family: "Times-New-Roman-bold";
+  src: url("/times-new-roman/times\ new\ roman\ bold.ttf");
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+.Roman-font-family {
+  font-family: "Times-New-Roman-bold";
+}
+.bg-dark-blue {
+  background-color: #373f6e;
+}
+.logo-w-h {
+  max-width: 223.2px;
+  max-height: 101.7px;
+}
+.nav-links {
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  margin: 14px 0px;
+}
+/* font size */
+.fs-14 {
+  font-size: 14px;
+}
+/* hover */
+.nav-links:hover {
+  border-bottom: 3px solid #0076bc;
+  background-color: rgba(255, 255, 255, 0.095);
+  transition: all 1s;
+}
+/* margin */
+.mr-15 {
+  margin-right: 15px;
+}
+.my-10 {
+  margin: 20px 0px;
+}
+
+.navbar-toggler span {
+  height: 7px;
+  display: block;
+  margin-left: 15px;
+  color: white;
+}
+.navbar-toggler {
+  box-shadow: 0px 0px 0px 0px !important;
+  width: auto !important;
+  height: auto !important;
+  width: 45px !important;
+  height: 35px !important;
+  background-color: #dddddd !important;
+  padding: 9px 10px !important;
+  border-radius: 4px !important;
+  gap: 4px !important;
+}
+.py-50 {
+  padding: 50px 0px;
+  margin-top: 100px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.my-20-40 {
+  margin: 20px 0px 40px 0px;
+}
+.grid {
+  display: grid !important;
+  grid-column: 5 !important;
+}
+.w-h-215 {
+  width: 215px;
+  height: 215px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.my-20-10 {
+  margin: 20px 0px 10px 0px;
+}
+.view-btn {
+  max-width: 90px;
+  margin: 0px auto;
+  padding: 6px 10px;
+  background-color: #0e7eff;
+  font-size: 14px;
+}
+.p-17 {
+  padding: 17px;
+}
+.right-0 {
+  right: 0px;
+}
+.ribbons {
+  font-size: 15px;
+  line-height: normal;
+  border-radius: 120px 0px 0px 120px;
+  padding: 15px 24px;
+}
+.ribbon-top-space {
+  top: 25%;
+}
+.ribbon-div {
+  width: 190px;
+  border-radius: 120px 0px 0px 120px;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+.ribbon-div:hover a {
+  color: #23527c !important;
+  transition: all 0.3s;
+}
+.z-99999 {
+  z-index: 9999999;
+}
+.lh-142 {
+  line-height: 142.8%;
+}
