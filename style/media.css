@@ -2,6 +2,10 @@
   .nav-links {
     margin: 0px;
   }
+  .navbar-collapse {
+    margin-left: 15px !important;
+    border: 0px !important;
+  }
 }
 @media (max-width: 500px) {
   .ribbon-div {
@@ -10,5 +14,13 @@
   .ribbons {
     font-size: 8px;
     line-height: 12px;
+  }
+  .w-h-215 {
+    width: 189px;
+    height: 189px;
+    margin: 7.5px 0px;
+  }
+  .py-50 .container {
+    padding: 0px;
   }
 }

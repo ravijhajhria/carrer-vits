@@ -51,7 +51,6 @@ body {
   height: auto !important;
   width: 45px !important;
   height: 35px !important;
-  background-color: #dddddd !important;
   padding: 9px 10px !important;
   border-radius: 4px !important;
   gap: 4px !important;
@@ -122,4 +121,7 @@ body {
 }
 .lh-142 {
   line-height: 142.8%;
+}
+.h-100 {
+  height: 100vh !important;
 }
